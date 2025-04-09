@@ -14,4 +14,4 @@ def save_mnemonics_to_file(filename, count):
 
 if __name__ == "__main__":
     num_wallets = int(input("Enter number of wallets to generate: "))
-    save_mnemonics_to_file("wallets.txt", num_wallets)
+    save_mnemonics_to_file("keys.txt", num_wallets)
